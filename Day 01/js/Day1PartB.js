@@ -11,7 +11,7 @@ let RunExecB = true;
                         Number1 = PuzzleInputB[i];
                         Number2 = PuzzleInputB[j];
                         Result = Number1 + Number2;
-                            if((Subtract == Result) && (RunExecB)) {
+                            if((Subtract === Result) && (RunExecB)) {
                                 Result = NumberIn * Number1 * Number2;
                                 RunExecB = false;
                                     console.log(`Result Day 1: ${Result}| Number1: ${NumberIn} || Number2: ${Number1} || Number3: ${Number2}`);
