@@ -11,6 +11,7 @@ h1, p, a {
     line-height:.8;
     color: white;
 }
+
 .contenido {
     max-width: 1200px;
     margin: 5rem auto 0 auto;
@@ -18,12 +19,19 @@ h1, p, a {
     font-size: 3rem;
     font-family: 'Carrois Gothic SC', sans-serif;
 }
+
+.codigo {
+    text-align: left;
+}
+
 h1 {
     font-size: 4rem;
 }
+
 a {
     font-size: 1.4rem;
 }
+
 p {
     font-size: 2.2rem;
 }
